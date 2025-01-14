@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Leanding Page E-shop</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+     crossorigin="anonymous">
+<!--font awesome cdn-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+      
+
+        #jumbotron {
+            text-shadow: #000 1px 1px;
+        }
+
+        #jumbotron h1 {
+            color: #fff;
+        }
+
+        #jumbotron p {
+            color: #fff;
+            font-weight: bold;
+        }
+
+
+        .bacground-jumbotron {
+            background-image: url("assets/img/Untitled-1.png") ;
+            height: 400px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            box-shadow: inset 0 0 0 200px rgba(0,0,0,0.5);
+          }
+          
+          .btn-info {
+            background-color: lightskyblue;
+            color: #fff;
+          }
+
+          .bg-blue {
+            color: lightskyblue;
+          }
+
+          .card:hover {
+            background-color: white;
+            margin: relative;
+            box-shadow: 3px 3px 8px 8px rgb(0, 0, 0, .2);
+            transition: all 0.3s ease 0s;
+          }
+          #konsultasi {
+            background-color: #e9f1e9f2;
+          }
+
+          h2::before,
+          h2::after {
+            background-color: lightskyblue;
+            content: '';
+            display: inline-block;
+            height: 1px;
+            position: relative;
+            vertical-align: middle;
+            width: 25%;
+          }
+
+          h2::before {
+            right: 0.5em;
+            margin-left: -50%;
+          }
+
+          h2::after {
+            left: 0.5em;
+            margin-right: -50%;
+          }
+    </style>
+
+
+</head>
+  <body>
+    <!--navbar menu-->
+   <section id="navbar" class="fixed-top">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="assets/img/STIKER2.png" alt="STIKER2" width="150px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#keunggulan">Keunggulan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#produk">Produk</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#konsultasi">Kosultasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak">Tentang Kami</a>
+              
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+   </section>
+
+    <!--jumbotron image-->
+   <section id="jumbotron" class="jumbotron-fluid bacground-jumbotron">
+    <div class="container-fluid py-5 text-center">
+     <p class="p-4"></p>
+        <h1 class="display-3">Solusi Tampil Keren</h1>
+        <p>kami menyediakan produk <br>tidak hanya indah dan berkualitas</p>
+      </div>
+    
+   </section>
+
+   <!--bagian keunggulan-->
+   <section id="keunggulan" class="container-fluid bg-light p-4">
+       <div class="row text-center">
+         <div class="col-12 p-5">
+         <h2 class="display-4">Mengapa memilih kami?</h2>
+         <p>beberapa keunggulan produk compeer</p>
+        </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <span class="fa-stack fa-2x">
+                <i class="fas fa-circle fa-stack-2x bg-blue "></i>
+                <i class="fas fa-list fa-stack-1x text-white"></i>
+              </span>
+            <h3 class="mt-4 bg-blue">barang berkualitas</h3>
+
+            <p>Menggunakan Bahan bahan cottn 20s dengan keunggulan
+              Lembut dan nyaman di kulit
+              Daya serap keringat yang tinggi
+              Memberikan feel yang hangat jika dipakai di daerah dingin atau dataran tinggi
+              </p>
+          </div>
+        
+        <div class="col-12 col-sm-6 col-lg-4">
+          <span class="fa-stack fa-2x">
+            <i class="fas fa-circle fa-stack-2x bg-blue "></i>
+            <i class="fas fa-shop-lock fa-stack-1x text-white"></i>
+          </span>
+        <h3 class="mt-4 bg-blue">Desain trendy</h3>
+
+        <p>Produk compeer memiliki desain yang stylish dan up-to-date sesuai dengan tren fashion terkini</p>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <span class="fa-stack fa-2x">
+          <i class="fas fa-circle fa-stack-2x bg-blue "></i>
+          <i class="fas fa-dollar fa-stack-1x text-white"></i>
+        </span>
+      <h3 class="mt-4 bg-blue">Harga Terjangkau</h3>
+
+      <p>Harga yang merakyat</p>
+    </div>
+          
+    
+    </div>
+   </section>
+
+   <!--Bagian produk-->
+   <section id="produk" class="container">
+    <div class="row text-center">
+      <div class="col-12 p-4">
+      <h2 class="display-4">Daftar produk</h2>
+     </div>
+
+     <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="assets/img/comper1.jpg" alt="">
+
+      <div class="card-body">
+        <h4 class="card-title">T-shirt Compeer</h4>
+
+        <p class="card-text">Bahan cotton 20S Boxy</p>
+
+      </div>
+
+      <div class="card-footer">
+        <a href="pesan.html" class="btn btn-info" target="_blank"><i class="fas fa-shopping-cart"></i>Detail</a>
+
+      </div>
+      </div>
+     </div>
+
+     <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="assets/img/comper2.jpg" alt="">
+
+      <div class="card-body">
+        <h4 class="card-title">T-shirt Compeer</h4>
+
+        <p class="card-text">Bahan cotton 20S Boxy</p>
+
+      </div>
+
+      <div class="card-footer">
+        <a href="pesan.html" class="btn btn-info" target="_blank"><i class="fas fa-shopping-cart"></i>Detail</a>
+
+      </div>
+      
+      </div>
+      <div class="col-12c mb-4 mt-4">
+        <a href="produk.html" class="btn btn-secondary" target="_blank">Produk Lainnya</a>
+      </div>
+     </div>
+
+     <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="assets/img/comper3.jpg" alt="">
+
+      <div class="card-body">
+        <h4 class="card-title">T-shirt Compeer</h4>
+
+        <p class="card-text">Bahan cotton 20S Boxy</p>
+
+      </div>
+
+      <div class="card-footer">
+        <a href="pesan.html" class="btn btn-info" target="_blank"><i class="fas fa-shopping-cart"></i>Detail</a>
+
+      </div>
+      </div>
+       
+     </div>
+     
+   
+    
+   </section>
+
+   <!--konsultasi-->
+   <section id="konsultasi" class="container-fluid text-center p-4">
+    <h2 class="display-4">konsultasi</h2>
+    <p>Silahkan kirim pesan atau pertanyaan anda dengan menekan tombol dibawah ini</p>
+    <a href="https://wa.me/6288274153516" class="btn btn-info" target="_blank">konsultasi </a>
+   </section>
+
+   <!--kontak-->
+   <section id="kontak">
+    <footer class="bg-white text-dark pt-5 pb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>Kantor Pusat</h5>
+            <p>
+              Desa Kota Batu, Ciomas , Kec.Tamansari Kab.Bogor
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h5>Produk</h5>
+            <p>Pakaian</p>
+          </div>
+          <div class="col-md-4">
+            <h5>Hubungi Kami</h5>
+            <p>📞 088274153516</p>
+            <p>✉ muadzauzanhakim01@gmail.com</p>
+          </div>
+        </div>
+      </footer>
+      <footer class="bg-dark text-white">
+        <div class="col-12" style="padding: 10px;">
+          <div style="text-align: center;">
+          <small>&copy; 2024 - Muadz Fauzan Hakim | Kebijakan Privasi • Syarat & Ketentuan</small>
+        </div>
+      </div>
+      </div>
+          </footer>
+    
+   </section>
+
+   <footer>
+
+   </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
